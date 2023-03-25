@@ -12,12 +12,12 @@
 The **Tideland Go Matcher** provides a simple pattern matching. It matches
 the following pattterns:
 
-- ? matches one char
-- * matches a group of chars
-- [abc] matches any of the chars inside the brackets
-- [a-z] matches any of the chars of the range
-- [^abc] matches any but the chars inside the brackets
-- \ escapes any of the pattern chars
+- `?` matches one char
+- `*` matches a group of chars
+- `[abc]` matches any of the chars inside the brackets
+- `[a-z]` matches any of the chars of the range
+- `[^abc]` matches any but the chars inside the brackets
+- `\` escapes any of the pattern chars
 
 ## Examples
 
